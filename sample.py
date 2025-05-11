@@ -13,8 +13,8 @@ tokenizer, model, image_processor, context_len = load_pretrained_model(
 model_path = "liuhaotian/llava-v1.5-7b"
 # prompt = "What are the things I should be cautious about when I visit here?"
 prompt = "여기 방문 시 주의해야 할 점은 무엇입니까?"
-# image_file = "https://llava-vl.github.io/static/images/view.jpg"
-image_file = "/home/ailab/Desktop/young/LLaVA/20240710_004749.jpg"
+image_file = "https://llava-vl.github.io/static/images/view.jpg"
+# image_file = "/home/ailab/Desktop/young/LLaVA/20240710_004749.jpg"
 
 args = type('Args', (), {
     "model_path": model_path,
